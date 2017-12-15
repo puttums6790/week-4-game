@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Collect The Crystals!</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<body>
+	<div class="header">
+		<h1>Collect the Crystals!</h1>
+	</div>
+	<div class="instructions">
+		<h3>ITS TIME TO PLAY THE GAME!</h3>
+		</br>
+		<ul>
+			<li>You will be given a random number at the start of the game.</li>
+			<li>There are four crystals below.</li>
+			<li>By clicking on a crystal, you will add a specific amount of points to your total score.</li>
+			<li>You win the game by matching your total score to the random number.</li>
+			<li>You lose the game if your total score goes above the random number.</li>
+			<li>The value of each crystal is hidden from you until you click on it.</li>
+			<li>Each time when the game starts, the game will change the values of each crystal.</li>
+		</ul>
+	</div>
+	<div class="numberToMatch">
+		<h2>Number To Get:
+			<span id= "randomNumber"></span>
+		</h2>
+	</div>
+	<div class="winsAndLosses">
+		<h2>Wins:
+			<span id= "numberWins"></span>
+			</br>
+			Losses: 
+			<span id= "numberLosses"></span>
+		</h2>
+	</div>
+	<div class="crystals">
+		<img src="assets/images/red.png" class=gemImage id= "redcrystal" alt="Red Crystal">
+		<img src="assets/images/blue.png" class=gemImage id="bluecrystal" alt="Blue Crystal">
+		<img src="assets/images/yellow.png" class=gemImage id= "yellowcrystal" alt="Yellow Crystal">
+		<img src="assets/images/green.png" class=gemImage id="greencrystal" alt="Green Crystal">
+		
+		
+	</div>
+	<div class="userTotal">
+		<h2>Your total score is:
+			<span id="finalTotal"></span>
+		</h2>
+	</div>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script type="text/javascript" src="assets/javascript/game.js"></script>
+</body>
+</html>
