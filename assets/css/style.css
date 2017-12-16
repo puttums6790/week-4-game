@@ -8,10 +8,17 @@ div{
 	width: 25%;
 	padding: 10px;
 }
-
-h3, span{
+.instructions {
+	width: 40%;
+}
+h3 {
 	font-weight: bold;
 	text-align: center;
+}
+span {
+	font-weight: bold;
+	text-align: center;
+	font-size: 30pt
 }
 h1{
 	font-size: 30pt;
